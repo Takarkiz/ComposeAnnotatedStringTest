@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting() {
-    val html = "<a href='https://staging.tunag.jp/chat/rooms/98939' class='link'>https://staging.tunag.jp/chat/rooms/98939</a><br /><span class='mention'>@青木 振一郎</span> <img class=\"emoji\" alt=\"+1\" title=\"+1\" src=\"https://staging.tunag.jp/images/emoji/unicode/1f44d.png\" /> <img class=\"emoji\" alt=\"smile\" title=\"smile\" src=\"https://staging.tunag.jp/images/emoji/unicode/1f604.png\" /> "
+    val html = "<a href='https://hoge.jp' class='link'>https://hoge.jp</a><br /><span class='mention'>@山田太郎</span> <img class=\"emoji\" alt=\"+1\" title=\"+1\" src=\"https://hoge.jp/image/thumbsup.png\" /> <img class=\"emoji\" alt=\"smile\" title=\"smile\" src=\"https://hoge.jp/image/smile.png\" /> "
     val htmlRenderer = HTMLToAnnotatedConverter.createDefault(
         Color.Blue,
         Color.LightGray,
